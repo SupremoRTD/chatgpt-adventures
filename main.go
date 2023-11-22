@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aataxe/chatgpt-adventures/openai"
+	"github.com/aatxxe/chatgpt-adventures/openai"
 )
 
 func chat(ai *openai.Chat, prompt string, replyChan chan *openai.Message) {
